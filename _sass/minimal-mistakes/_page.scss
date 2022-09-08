@@ -1,7 +1,7 @@
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
-
+   
 #main {
   @include clearfix;
   margin-left: auto;
@@ -39,6 +39,7 @@ body {
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
+
     padding-right: $right-sidebar-width-narrow;
   }
 
@@ -76,6 +77,11 @@ body {
   &+.page__meta {
     margin-top: -0.5em;
   }
+}
+
+.line__divider{
+  border-top: 8px solid $border-color;
+  border-radius: 5px;
 }
 
 .page__lead {

@@ -35,6 +35,7 @@ layout: default
         {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify |
           remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
         {% include page__meta.html %}
+        <hr id="line-divider" class="line__divider"> 
       </header>
       {% endunless %}
 
