@@ -51,7 +51,7 @@ body {
 
   .page__inner-wrap {
     float: left;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -80,8 +80,9 @@ body {
 }
 
 .line__divider{
-  border-top: 8px solid $border-color;
-  border-radius: 5px;
+  border-top: 5px solid $border-color;
+  // margin: 1em;
+  border-radius: 3px;
 }
 
 .page__lead {
@@ -101,6 +102,8 @@ body {
   h4,
   h5,
   h6 {
+    margin-top: 2.6em;
+
     .header-link {
       position: relative;
       left: 0.5em;
@@ -120,7 +123,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   /* paragraph indents */
