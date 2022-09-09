@@ -94,7 +94,18 @@ body {
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    margin-top: 3.0em;
+
   }
+  
+  h2 + h3{
+    margin-top: 0.8em;
+  }
+
+  img {
+    border-radius: 0.3em; 
+  }
+
 
   h1,
   h2,
@@ -117,8 +128,7 @@ body {
       opacity: 1;
     }
   }
-
-
+ 
   p,
   li,
   dl {

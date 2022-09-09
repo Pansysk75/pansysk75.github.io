@@ -47,7 +47,7 @@ layout: default
               <h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label
                 | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
             </header>
-            {% include toc.html sanitize=true html=content h_min=1 h_max=2 class="toc__menu" skip_no_ids=true %}
+            {% include toc.html sanitize=true html=content h_min=1 h_max=3 class="toc__menu" skip_no_ids=true %}
           </nav>
         </aside>
         {% endif %}
@@ -103,3 +103,5 @@ layout: default
   </div>
   {% endif %}
 </div>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
