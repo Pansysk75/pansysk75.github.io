@@ -58,20 +58,23 @@ plugins:
 author:
   name   : "Panos Syskakis"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Electrical & Computer Engineering student based in Thessaloniki, Greece"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Pansysk75"
+    - label: "Email"
+      icon: "fa fa-fw fa-envelope"
+      url: "pansysk75@gmail.com"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Pansysk75"
+    - label: "Email"
+      icon: "fa fa-fw fa-envelope"
+      url: "pansysk75@gmail.com"
 
 atom_feed:
   hide: true
